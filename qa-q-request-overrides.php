@@ -8,3 +8,4 @@ function qa_q_request($questionid, $title)
 	$title = str_replace($turkishCharacters, $changeCharacters, $title);
 	return qa_q_request_base($questionid, $title);
 }
+?>
